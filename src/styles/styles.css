@@ -43,6 +43,7 @@ h1,
 h2,
 h3 {
   margin: 0;
+
   font-family: "Neucha", sans-serif;
   line-height: 1.2em;
 }
@@ -50,6 +51,7 @@ h3 {
 ul {
   margin: 0;
   padding: 0;
+
   list-style: none;
 }
 
@@ -72,12 +74,15 @@ ul {
   position: absolute;
   top: 0;
   right: 0;
+
   width: 100%;
   height: 100%;
+
   background-image: url(../images/background.png);
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.1;
+
   content: '';
 }
 
@@ -112,7 +117,7 @@ ul {
 .text-brown {
   color: var(--brown);
 }
- 
+
 .text-dark {
   color: var(--dark);
 }
@@ -143,6 +148,7 @@ ul {
 .link {
   display: block;
   height: 100%;
+
   text-decoration: none;
 }
 
@@ -158,19 +164,23 @@ ul {
 }
 
 .pre-title {
+
   font: normal 24px 'Neucha', sans-serif;
   text-transform: uppercase;
 }
 
 .title {
   margin: 0 0 30px;
+
   font-weight: normal;
 }
 
 .description {
   margin: 0;
+
   font: normal 34px / 1.2em "Neucha", sans-serif;
 }
+
 .separator {
   display: block;
   grid-column: span 2;
@@ -183,18 +193,22 @@ ul {
 .text-block {
   display: grid;
   grid: auto / repeat(2, 1fr);
+
   column-gap: 30px;
 }
+
 .btn {
   display: flex;
   align-items: center;
   justify-content: center;
+
   font-weight: bold;
   font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
 }
 
 /* ---Header section--- */
+
 .header .container {
   position: relative;
 }
@@ -206,14 +220,18 @@ ul {
 
 .header .title::after {
   color: var(--dark);
+
   content: 'в программировании';
 }
+
 .header-image {
   position: absolute;
   top: 55px;
   right: -270px;
+
   height: 525px;
 }
+
 .header .text-block {
   grid-column: span 2;
 }
@@ -233,6 +251,7 @@ ul {
   width: 148px;
   height: 49px;
   margin: 24px 0 0 15px;
+
   font-weight: bold;
   font-size: 16px;
   text-transform: uppercase;
@@ -242,6 +261,7 @@ ul {
 .video-section .container {
   position: relative;
   bottom: -100px;
+
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
@@ -255,6 +275,7 @@ ul {
 
 .video-title::after {
   color: var(--primary);
+
   content: 'когнитивные искажения?';
 }
 
@@ -270,12 +291,14 @@ ul {
 
 .navigation .title {
   margin: 0;
+
   font-weight: normal;
   font-size: 52px;
 }
 
 .navigation .title::after {
   color: var(--white);
+
   content: 'о существовании которых стоит помнить';
 }
 
@@ -283,6 +306,7 @@ ul {
   display: grid;
   grid-template-rows: minmax(323px, max-content) minmax(348px, max-content);
   grid-template-columns: repeat(3, 350px);
+
   column-gap: 30px;
   row-gap: 20px;
 }
@@ -297,6 +321,7 @@ ul {
 
 .card-number {
   margin: 0 0 40px;
+
   font-weight: normal;
   font-size: 64px;
   line-height: 1;
@@ -367,28 +392,34 @@ ul {
   height: 50px;
   padding: 0;
   border: none;
+
   cursor: pointer;
 }
 
 .email-btn::before {
   width: 20px;
   height: 20px;
+
   background-image: url(../images/send.svg);
   background-position: center;
+
   content: '';
   /* background-size: cover; */
 }
 
 .service-rules {
   display: flex;
+
   font-size: 12px;
 }
+
 .service-rules .link {
   text-decoration: underline;
 }
 
 .info {
   margin-top: 60px;
+
   font-size: 14px;
   text-align: center;
 }
